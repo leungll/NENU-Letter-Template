@@ -1,0 +1,62 @@
+\documentclass[12pt, a4paper]{letter} % Set the font size (10pt, 11pt and 12pt) and paper size
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{eso-pic}
+\usepackage[export]{adjustbox}
+\usepackage{xcolor}
+
+\hypersetup{hidelinks}
+
+\geometry{
+	top=1cm,
+	bottom=2cm,
+	left=2cm,
+	right=2cm,
+}
+
+\newcommand\BackgroundPicture{
+    \put(0,0){
+        \parbox[b][\paperheight]{\paperwidth}{
+            \vfill
+            \centering\includegraphics[width=0.4\paperwidth,height=0.4\paperheight,keepaspectratio]{pic/nenu_bg.png} % Change your logo
+            \vfill
+        }
+    }
+}
+\AddToShipoutPicture{\BackgroundPicture}
+
+\begin{document}
+    \begin{minipage}{0.5\textwidth}
+        \includegraphics[width=3.2in]{pic/nenu_logo.jpeg}\\ % Change your logo
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.6\textwidth}\raggedright
+        \small{
+            \hphantom{AA}Room xxx, Academic Building\\ % Change your address
+            \hphantom{AA}School of Information Science and Technology\\
+            \hphantom{AA}NorthEast Normal University\\
+            \hphantom{AA}No.2555 Jingyue Street, Nanguan District\\
+            \hphantom{AA}Changchun, P. R. China, 130117
+        }
+    \end{minipage}
+
+    \today
+
+    \textbf{Recommendation Letter for Ms. Lili Liang\footnote{\textbf{L. Liang}. ``NENU Letter of Recommendation Template'' Proceedings of Overleaf. Overleaf Gallery, 2024.}}
+
+    To Whom It May Concern:\\
+
+    \input{letterContent} % Refer to letterContent.tex
+
+    Sincerely yours,
+
+    \includegraphics[width=2in]{pic/signature.png} % Please sign your name
+
+    xxx, Professor\\
+    School of Information Science and Technology\\
+    NorthEast Normal University\\
+    Phone: (86) 10-xxxx-xxx\\ 
+    Email: \href{mailto:xxx@nenu.edu.cn}{xxx@nenu.edu.cn}\\
+    Web: \url{https://ai.nenu.edu.cn}\\
+\end{document}
