@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-20 01:06:27
+ * @LastEditTime: 2024-05-20 01:11:32
  * @Description: Please set description
 -->
 # NENU-Letter-Template
@@ -58,7 +58,7 @@ NENU's recommendation letter template.
 
     \includegraphics[width=2in]{pic/signature.png} % Please sign your name
 
-    xxx, Professor \\
+    xxx, Professor \\ % Change your personal information
     School of Information Science and Technology \\
     NorthEast Normal University \\
     Phone: (86) 10-xxxx-xxx \\ 
