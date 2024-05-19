@@ -6,7 +6,9 @@
  * @Description: Please set description
 -->
 # NENU-Letter-Template
-- NENU's recommendation letter template.
+NENU's recommendation letter template.
+
+东北师范大学推荐信模板
 
 ## 示例
 ![NENU-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/NENU-Letter.png) | ![CMU-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/CMU-Letter.png)
