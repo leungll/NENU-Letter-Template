@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-20 01:11:32
+ * @LastEditTime: 2024-05-20 14:22:08
  * @Description: Please set description
 -->
 # NENU-Letter-Template
@@ -43,13 +43,11 @@ NENU's recommendation letter template.
 ### `main.tex`
 - 修改推荐信地址
     ```
-    \small{ 
-        \hphantom{AA}Room xxx, Academic Building \\ % Change your address
-        \hphantom{AA}School of Information Science and Technology \\
-        \hphantom{AA}NorthEast Normal University \\
-        \hphantom{AA}No.2555 Jingyue Street, Nanguan District \\
-        \hphantom{AA}Changchun, P. R. China, 130117
-    }
+    \hphantom{AA}Room xxx, Academic Building \\ % Change your address
+    \hphantom{AA}School of Information Science and Technology \\
+    \hphantom{AA}NorthEast Normal University \\
+    \hphantom{AA}No.2555 Jingyue Street, Nanguan District \\
+    \hphantom{AA}Changchun, P. R. China, 130117 \\
     ```
 
 - 修改推荐信落款
@@ -74,12 +72,12 @@ NENU's recommendation letter template.
 
 ### `letterContent.tex` 
 > 此文件为推荐信的主内容
+- 编辑你的内容
 - 注意使用 `\\` 进行换行
-
 
 ## 如何编译
 ### 方式 1 ：在线编译
-- 打开链接：: 
+- 打开链接：
 - Open as Template
 - 编辑你的内容
 - 编译
@@ -87,7 +85,7 @@ NENU's recommendation letter template.
 
 ### 方式 2 ：本地编译
 - 安装 Tex 本地环境: https://www.latex-project.org/get
-- 下载此项目: `git clone https://github.com/leungll/ByteDance-Letter-Template.git`
+- 下载此项目: `git clone https://github.com/leungll/NENU-Letter-Template.git`
 - 运行: `pdflatex main`
 
 ## 参考
