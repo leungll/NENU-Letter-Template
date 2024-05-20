@@ -2,13 +2,18 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-20 14:22:08
+ * @LastEditTime: 2024-05-20 23:01:01
  * @Description: Please set description
 -->
 # NENU-Letter-Template
 NENU's recommendation letter template.
 
 东北师范大学推荐信模板
+
+![GitHub last commit](https://img.shields.io/github/last-commit/leungll/NENU-Letter-Template?color=red)
+![GitHub repo size](https://img.shields.io/github/repo-size/leungll/NENU-Letter-Template)
+![Static Badge](https://img.shields.io/badge/language-latex-9cf)
+![GitHub License](https://img.shields.io/github/license/leungll/NENU-Letter-Template?color=orange)
 
 ## 示例
 ![NENU-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/NENU-Letter.png) | ![CMU-Letter](https://cdn.jsdelivr.net/gh/leungll/MyImgHosting/img/CMU-Letter.png)
