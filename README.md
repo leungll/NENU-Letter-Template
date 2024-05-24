@@ -2,7 +2,7 @@
  * @Author: Lili Liang
  * @Date: 2024-05-19 21:22:15
  * @LastEditors: Lili Liang
- * @LastEditTime: 2024-05-22 11:07:08
+ * @LastEditTime: 2024-05-24 13:55:33
  * @Description: Please set description
 -->
 # NENU-Letter-Template
@@ -97,3 +97,6 @@ NENU's recommendation letter template.
 ## 参考
 - [THU Letter of Recommendation Template](https://www.overleaf.com/latex/templates/thu-letter-of-recommendation-template/ghjfgfhykprk)
 - [Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+
+---
+**This project need a star ⭐ from you ❤️.**
